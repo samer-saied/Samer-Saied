@@ -3,6 +3,7 @@ import NavBar from "../../../components/widgets/navbar";
 import FooterSection from "../../../components/sections/footerSection";
 import Link from "next/link";
 import projectsData from "../../../data/projects-data";
+import Image from "next/image";
 
 const { useState } = React;
 
@@ -23,7 +24,7 @@ export default function SingleProject({ projextNo }) {
           </div>
         )}
         {project.image && (
-          <img
+          <Image
             alt={project.title + " photo"}
             src={project.image}
             className="object-fill w-full h-full"

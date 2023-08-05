@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const   startSection = () => {
@@ -48,7 +49,7 @@ const   startSection = () => {
                 <div className="w-96 h-96 rounded-full absolute top-0 bg-cutomMidBlue opacity-5 z-50">
                 </div>
                 <div className="z-100 absolute top-0 w-96">
-                    <img alt="profil" src="/images/samersaied.png" className="mx-auto object-fill" />
+                    <Image alt="profil" src="/images/samersaied.png" className="mx-auto object-fill" />
                     <div className="h-2 w-full absolute bottom-0 bg-white z-100"></div>
                 </div>
 
