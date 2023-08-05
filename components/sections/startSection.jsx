@@ -8,7 +8,7 @@ const   startSection = () => {
             <div className="text-start lg:w-7/12 w-full mx-auto py-12 pl-10 z-20">
                 {/*----------------------- Name -----------------------*/}
                 <h1 className="text-3xl font-thin text-white sm:text-4xl">
-                    Hi, I&#x27;m
+                    Hi, I'm
                 </h1>
                 <h2 className="text-4xl font-extrabold text-white sm:text-4xl">
                      Samer Saied,
