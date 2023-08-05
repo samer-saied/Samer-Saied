@@ -9,7 +9,7 @@ const   startSection = () => {
             <div className="text-start lg:w-7/12 w-full mx-auto py-12 pl-10 z-20">
                 {/*----------------------- Name -----------------------*/}
                 <h1 className="text-3xl font-thin text-white sm:text-4xl">
-                    Hi, I'm
+                    Hi, I&apos;m
                 </h1>
                 <h2 className="text-4xl font-extrabold text-white sm:text-4xl">
                      Samer Saied,
@@ -31,7 +31,7 @@ const   startSection = () => {
                     </div>
                 </h2>
                 <p className="text-xl mt-4 text-gray-400 w-11/12 lg:w-full">
-                MERN stack and Flutter developer with 5+ years of experience. I'm passionate about building high-quality, user-friendly web and mobile applications. I'm also a strong communicator and team player.                </p>
+                MERN stack and Flutter developer with 5+ years of experience. I&apos;m passionate about building high-quality, user-friendly web and mobile applications. I&apos;m also a strong communicator and team player.                </p>
                 <div className="flex flex-row">
                     <div className="mt-12  rounded-md shadow">
                         <button type="button" className="py-4 px-24  bg-cutomyellow hover:bg-cutomOrange focus:ring-cutomOrange focus:ring-offset-cutomyellow text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
