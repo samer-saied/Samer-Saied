@@ -5,7 +5,7 @@ import projects from "../../data/projects-data";
 const CardsSection = () => {
   return (
     <>
-      <div className="mx-auto w-full bg-gray-50 lg:px-28 px-8 py-10">
+      <div id="projects_section" className="mx-auto w-full bg-gray-50 lg:px-28 px-8 py-10">
         <h2 className="container mb-12 text-3xl font-extrabold leading-9 text-cutomDartBlue border-b-2 border-cutomDartBlue">
           Projects
         </h2>

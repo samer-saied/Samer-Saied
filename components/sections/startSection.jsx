@@ -32,13 +32,13 @@ const   startSection = () => {
                 </h2>
                 <p className="text-xl mt-4 text-gray-400 w-11/12 lg:w-full">
                 MERN stack and Flutter developer with 5+ years of experience. I&apos;m passionate about building high-quality, user-friendly web and mobile applications. I&apos;m also a strong communicator and team player.                </p>
-                <div className="flex flex-row">
+                {/* <div className="flex flex-row">
                     <div className="mt-12  rounded-md shadow">
                         <button type="button" className="py-4 px-24  bg-cutomyellow hover:bg-cutomOrange focus:ring-cutomOrange focus:ring-offset-cutomyellow text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                             Explore
                         </button>
                     </div>
-                </div>
+                </div> */}
             </div>
             {/*----------------------- Image Section-----------------------*/}
             <div className="lg:w-5/12 w-full relative h-64 overflow-hidden flex items-center justify-center ">
@@ -49,7 +49,7 @@ const   startSection = () => {
                 <div className="w-96 h-96 rounded-full absolute top-0 bg-cutomMidBlue opacity-5 z-50">
                 </div>
                 <div className="z-100 absolute top-0 w-96">
-                    <Image alt="profil" src="/images/samersaied.png" className="mx-auto object-fill" />
+                    <Image width={600} height={600} alt="profil" src="/images/samersaied.png" className="mx-auto object-fill" />
                     <div className="h-2 w-full absolute bottom-0 bg-white z-100"></div>
                 </div>
 

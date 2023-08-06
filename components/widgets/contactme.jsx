@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function contactMeWidget() {
     return (
-        <div className='flex flex-col justify-center items-center p-10 bg-gray-800'>
+        <div id="contact_section" className='flex flex-col justify-center items-center p-10 bg-gray-800'>
             <h1 className="text-white font-normal text-2xl">Please feel free to contact me if you have any questions or would like to discuss my qualifications further.
 
             </h1>
