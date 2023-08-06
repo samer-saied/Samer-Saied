@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-const navbar = () => {
+const Navbar = () => {
   const [IsMobile, setIsMobile] = useState(false);
   return (
     <nav className="bg-gray-800  shadow ">
@@ -48,9 +48,9 @@ const navbar = () => {
             <button
               onClick={(event) => {
                 event.preventDefault();
-                setisMobile(!IsMobile);
+                setIsMobile(!IsMobile);
               }}
-              className="text-gray-800 text-white hover:text-gray-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
+              className=" text-white hover:text-gray-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
             >
               <svg
                 width="20"
@@ -100,4 +100,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
