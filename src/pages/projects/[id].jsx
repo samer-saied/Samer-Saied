@@ -73,9 +73,9 @@ export default function SingleProject({ projextNo }) {
           <div className="border border-gray-200 rounded-md p-5 shadow-sm mb-5">
             <div className="flex flex-col">
               <h1 className=" font-bold text-gray-700 text-xl">Links</h1>
-              <div class="flex flex-row justify-evenly items-center mb-5">
+              <div className="flex lg:flex-row flex-col justify-evenly items-center mb-5">
                 {project.links?.map((link) => (
-                  <>
+                  <div key={link}>
                     {link.name == "Github" && (
                       <button
                         onClick={(event) => {
@@ -83,9 +83,9 @@ export default function SingleProject({ projextNo }) {
                           window.open(`${link.url}`, "_blank");
                         }}
                         type="button"
-                        class="flex items-center justify-center w-48 mt-3 text-white bg-black h-14 rounded-xl"
+                        className="flex items-center justify-center w-48 mt-3 text-white bg-black h-14 rounded-xl"
                       >
-                        <div class="mr-3">
+                        <div className="mr-3">
                           <svg viewBox="0 0 120 130" width="30">
                             <path
                               fill="currentColor"
@@ -95,8 +95,8 @@ export default function SingleProject({ projextNo }) {
                           </svg>
                         </div>
                         <div>
-                          <div class="text-xs">Check Code on</div>
-                          <div class="-mt-1 font-sans text-xl font-semibold">
+                          <div className="text-xs">Check Code on</div>
+                          <div className="-mt-1 font-sans text-xl font-semibold">
                             GitHub
                           </div>
                         </div>
@@ -109,9 +109,9 @@ export default function SingleProject({ projextNo }) {
                           window.open(`${link.url}`, "_blank");
                         }}
                         type="button"
-                        class="flex items-center justify-center w-48 mt-3 text-white bg-black h-14 rounded-xl"
+                        className="flex items-center justify-center w-48 mt-3 text-white bg-black h-14 rounded-xl"
                       >
-                        <div class="mr-3">
+                        <div className="mr-3">
                           <svg viewBox="2 -20 120 150" width="40">
                             <path
                               fill="white"
@@ -122,8 +122,8 @@ export default function SingleProject({ projextNo }) {
                           </svg>
                         </div>
                         <div>
-                          <div class="text-xs">Visit</div>
-                          <div class="-mt-1 font-sans text-xl font-semibold">
+                          <div className="text-xs">Visit</div>
+                          <div className="-mt-1 font-sans text-xl font-semibold">
                             Website
                           </div>
                         </div>
@@ -136,9 +136,9 @@ export default function SingleProject({ projextNo }) {
                           window.open(`${link.url}`, "_blank");
                         }}
                         type="button"
-                        class="flex items-center justify-center w-48 mt-3 text-white bg-black rounded-lg h-14"
+                        className="flex items-center justify-center w-48 mt-3 text-white bg-black rounded-lg h-14"
                       >
-                        <div class="mr-3">
+                        <div className="mr-3">
                           <svg viewBox="30 336.7 120.9 129.2" width="30">
                             <path
                               fill="#FFD400"
@@ -159,8 +159,8 @@ export default function SingleProject({ projextNo }) {
                           </svg>
                         </div>
                         <div>
-                          <div class="text-xs">GET IT ON</div>
-                          <div class="-mt-1 font-sans text-xl font-semibold">
+                          <div className="text-xs">GET IT ON</div>
+                          <div className="-mt-1 font-sans text-xl font-semibold">
                             Google Play
                           </div>
                         </div>
@@ -173,9 +173,9 @@ export default function SingleProject({ projextNo }) {
                           window.open(`${link.url}`, "_blank");
                         }}
                         type="button"
-                        class="flex items-center justify-center w-48 mt-3 text-black bg-transparent border border-black h-14 rounded-xl"
+                        className="flex items-center justify-center w-48 mt-3 text-black bg-transparent border border-black h-14 rounded-xl"
                       >
-                        <div class="mr-3">
+                        <div className="mr-3">
                           <svg viewBox="0 0 384 512" width="30">
                             <path
                               fill="currentColor"
@@ -184,14 +184,14 @@ export default function SingleProject({ projextNo }) {
                           </svg>
                         </div>
                         <div>
-                          <div class="text-xs">Download on the</div>
-                          <div class="-mt-1 font-sans text-2xl font-semibold">
+                          <div className="text-xs">Download on the</div>
+                          <div className="-mt-1 font-sans text-2xl font-semibold">
                             App Store
                           </div>
                         </div>
                       </button>
                     )}
-                  </>
+                  </div>
                 ))}
               </div>
             </div>
