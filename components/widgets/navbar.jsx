@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 const navbar = () => {
-  const [isMobile, setisMobile] = useState(false);
+  const [IsMobile, setIsMobile] = useState(false);
   return (
     <nav className="bg-gray-800  shadow ">
       <div className="px-8 mx-auto max-w-7xl">
@@ -48,7 +48,7 @@ const navbar = () => {
             <button
               onClick={(event) => {
                 event.preventDefault();
-                setisMobile(!isMobile);
+                setisMobile(!IsMobile);
               }}
               className="text-gray-800 text-white hover:text-gray-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
             >
@@ -66,7 +66,7 @@ const navbar = () => {
           </div>
         </div>
       </div>
-      {isMobile && (
+      {IsMobile && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
