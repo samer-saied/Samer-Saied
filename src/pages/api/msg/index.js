@@ -4,7 +4,6 @@ import addMsg from "../../../../core/add"
 const handler = async (req, res) => {
 
   const data = req.body;
-  // res.header("Access-Control-Allow-Origin", "*");
   switch (req.method) {
     case "POST":
       try {
