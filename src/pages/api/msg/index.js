@@ -12,7 +12,7 @@ const handler = async (req, res) => {
             res.status(200).json({ result: response })
           })
       } catch (error) {
-        res.status(400).json({ result: error })
+        res.status(400).json({ error: error })
       }
       break
   }

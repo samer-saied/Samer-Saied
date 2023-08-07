@@ -11,11 +11,11 @@ export default function ContactMeWidget() {
       event.target.phone.value == "" ||
       event.target.body.value == ""
     ) {
-      alert("You are Smart Man, but i catched You")
-      return
+      alert("You are Smart Man, but i catched You");
+      return;
     } else {
       setLoading(true);
-      fetch("https://www.samersaied.site/api/msg", {
+      fetch("/api/msg", {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -62,6 +62,11 @@ export default function ContactMeWidget() {
           <div className="mb-4 text-2xl font-light text-center text-white">
             {!IsLoading && !IsSended && "Contact Me"}
             {IsLoading && !IsSended && "Sending..."}
+            {IsLoading && !IsSended && (
+              <div className="flex flex-row justify-center items-center">
+                <img src="/images/loading.gif" />
+              </div>
+            )}
             {!IsLoading && IsSended && "Thank You"}
             {!IsLoading && IsSended && <br></br>}
             {!IsLoading && IsSended && "Message Sent successfully."}
