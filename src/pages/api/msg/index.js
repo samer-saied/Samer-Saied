@@ -10,12 +10,12 @@ export default function handler(req, res) {
           res.statusCode = 200
           res.setHeader('Content-Type', 'application/json');
           res.setHeader('Cache-Control', 'max-age=180000');
-          res.status(200).json({ result: response })
+          return res.status(200).json({ result: response })
           resolve();
         })
         .catch(error => {
           res.json(error);
-          res.status(405).end();
+          return res.status(405).end();
           resolve(); // in case something goes wrong in the catch block (as vijay commented)
         });
     });
@@ -25,9 +25,9 @@ export default function handler(req, res) {
 
   } else if (req.method === "GET") {
     console.log("GET")
-    res.status(200).json({ result: 'Test' })
+    return res.status(200).json({ result: 'Test' })
   } else {
-    res.status(404).json({ result: 'Not Found' })
+    return res.status(404).json({ result: 'Not Found' })
 
   }
 }
