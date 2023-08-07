@@ -10,7 +10,7 @@ export default function handler(req, res) {
           res.statusCode = 200
           res.setHeader('Content-Type', 'application/json');
           res.setHeader('Cache-Control', 'max-age=180000');
-          res.end(JSON.stringify(response));
+          res.status(200).json({ result: response })
           resolve();
         })
         .catch(error => {
