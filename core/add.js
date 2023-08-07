@@ -4,15 +4,14 @@ const prisma = new PrismaClient()
 
 export default async function addMsg(name, phone, body) {
     await prisma.$connect();
-
+    console.log(name + phone + body)
     const result = prisma.messages.create({
         data: {
-            name: name,
-            phone: phone,
-            body: body,
+            name: name.toString(),
+            phone: phone.toString(),
+            body: body.toString(),
         },
     }).catch(async (error) => {
-        // console.log(error)
         return "Error, Not added"
     })
         .finally(async () => {
