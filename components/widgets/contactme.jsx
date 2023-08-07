@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function contactMeWidget() {
+export default function ContactMeWidget() {
   const [IsSended, setIsSended] = useState(false);
   const [IsLoading, setLoading] = useState(false);
 
