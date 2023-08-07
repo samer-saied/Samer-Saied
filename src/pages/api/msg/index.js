@@ -1,4 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 import addMsg from "../../../../core/add"
 
@@ -6,7 +5,7 @@ export default function handler(req, res) {
   if (req.method === "POST") {
     console.log("POST")
 
-    return addMsg(req.body.name, req.body.phone, req.body.body).then((data) => {
+     addMsg(req.body.name, req.body.phone, req.body.body).then((data) => {
       res.status(200).json({ result: data })
 
     }).catch((error) => {
