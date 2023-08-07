@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-import addMsg from "../../../core/add"
+import addMsg from "../../../../core/add"
 
 export default function handler(req, res) {
   if (req.method == "POST") {
