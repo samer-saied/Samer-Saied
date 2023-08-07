@@ -11,7 +11,10 @@ export default function handler(req, res) {
       res.status(400).json({ result: error })
 
     })
-  } else {
+  } else if(req.method == "GET")  {
+    res.status(200).json({ result: 'Test' })
+  }else{
     res.status(404).json({ result: 'Not Found' })
+
   }
 }
