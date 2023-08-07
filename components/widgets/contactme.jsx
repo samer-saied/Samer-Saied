@@ -15,7 +15,7 @@ export default function ContactMeWidget() {
       return
     } else {
       setLoading(true);
-      fetch("/api/msg", {
+      fetch("https://www.samersaied.site/api/msg", {
         method: "POST",
         headers: {
           Accept: "application/json",
