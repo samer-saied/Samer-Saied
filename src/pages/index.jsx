@@ -7,9 +7,7 @@ import FaqWidget from "../../components/sections/faqSection";
 import ContactMeWidget from "../../components/widgets/contactme";
 import Head from "next/head";
 
-const { useState } = React;
 const App = () => {
-  const [open, setOpen] = useState(false);
   return (
     <>
       <Head>
