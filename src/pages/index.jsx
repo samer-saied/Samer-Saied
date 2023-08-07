@@ -16,12 +16,12 @@ const App = () => {
         <title>Samer Saied</title>
         <meta name="description" content="Samer Saied Resume" />
       </Head>
-      <NavBar></NavBar>
-      <StartSection></StartSection>
+      <NavBar />
+      <StartSection />
       <CardsWidget />
       <FaqWidget />
-      <ContactMeWidget></ContactMeWidget>
-      <FooterSection></FooterSection>
+      <ContactMeWidget />
+      <FooterSection />
     </>
   );
 };

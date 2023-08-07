@@ -49,7 +49,7 @@ const   startSection = () => {
                 <div className="w-96 h-96 rounded-full absolute top-0 bg-cutomMidBlue opacity-5 z-50">
                 </div>
                 <div className="z-100 absolute top-0 w-96">
-                    <Image width={600} height={600} alt="profil" src="/images/samersaied.png" className="mx-auto object-fill" />
+                    <img alt="profil" src="/images/samersaied.png" className="mx-auto object-fill" />
                     <div className="h-2 w-full absolute bottom-0 bg-white z-100"></div>
                 </div>
 

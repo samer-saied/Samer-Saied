@@ -8,14 +8,14 @@ const CardWidget = ({ project }) => {
       className="m-auto overflow-hidden rounded-lg shadow-md transform transition duration-500 hover:scale-110 hover:shadow-xl cursor-pointer h-fit"
     >
       <Link href={`/projects/${project.id}`} className="">
-        {project.video && (
+        {/* {project.video && (
           <div className="flex flex-col justify-center items-center bg-white h-60">
             <video autoPlay={true} muted loop height="240">
               <source src="video/tal3a_video.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
-        )}
+        )} */}
         {project.image && (
           <img
             alt={project.title + " photo"}
