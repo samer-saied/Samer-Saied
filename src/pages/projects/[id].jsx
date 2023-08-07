@@ -23,14 +23,14 @@ export default function SingleProject({ projextNo }) {
           {project.section}
         </p>
         {/*=========================== IMAGE - VIDEO SECTION ===========================*/}
-        {project.video && (
+        {/* {project.video && (
           <div className="flex flex-col justify-center items-center bg-white h-full">
             <video autoPlay={true} muted loop height="240">
               <source src="/video/tal3a_video.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
-        )}
+        )} */}
         {project.image && (
           <Image
             alt={project.title + " photo"}

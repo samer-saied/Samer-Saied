@@ -84,7 +84,7 @@ const FooterSection = () => {
               width="24"
               height="24"
               fill="currentColor"
-              class="bi bi-whatsapp"
+              className="bi bi-whatsapp"
               viewBox="0 0 16 16"
             >
               {" "}
@@ -101,7 +101,7 @@ const FooterSection = () => {
               width="24"
               height="24"
               fill="currentColor"
-              class="bi bi-envelope"
+              className="bi bi-envelope"
               viewBox="0 0 16 16"
             >
               {" "}
