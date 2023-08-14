@@ -104,9 +104,26 @@ const projects = [
         ]
 
     },
+     {
+        "id": 8,
+        "section": "Website",
+        "title": "Ecommerce website",
+        "image": "/projects/ecommerce_nextjs.gif",
+        "description": "One Hour Work Only: fast building for 4 pages (single product page + Home page with products and categories + Loading Page + Error Page)",
+        "technology": "Next.js + React.js + Tailwind + API (connect to fakeApi)",
+        "tags": ["React.js", "Next.js 13 last version", "API"],
+        "links": [
+            { "name": "Github", "url": "https://github.com/samer-saied/nextjs13_ecommerce" },
+            { "name": "Website", "url": "https://play.google.com/store/apps/details?id=me.samersaied.collect_order" },
+
+        ]
+
+    },
 
 ]
 
 
 
 export default projects
+
+
