@@ -114,7 +114,7 @@ const projects = [
         "tags": ["React.js", "Next.js 13 last version", "API"],
         "links": [
             { "name": "Github", "url": "https://github.com/samer-saied/nextjs13_ecommerce" },
-            { "name": "Website", "url": "https://play.google.com/store/apps/details?id=me.samersaied.collect_order" },
+            { "name": "Website", "url": "https://github.com/samer-saied/nextjs13_ecommerce" },
 
         ]
 
