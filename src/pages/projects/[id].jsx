@@ -44,7 +44,7 @@ export default function SingleProject({ projextNo }) {
         <div className=" flex flex-col justify-center mt-10">
           <div className="border border-gray-200 rounded-md p-5 shadow-sm mb-2">
             <h1 className=" font-bold text-gray-700 text-xl">Description</h1>
-            <p className="font-light text-gray-700 text-xl p-2">
+            <p className="font-light text-gray-700 text-xl p-2 whitespace-pre-line">
               {project.description}
             </p>
           </div>

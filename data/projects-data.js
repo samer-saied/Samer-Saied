@@ -34,9 +34,9 @@ const projects = [
     }, {
         "id": 3,
         "section": "Mobile app",
-        "title": "Mona ellebody - Education application",
+        "title": "Learn it - Education application",
         "image": "/projects/education-app.jpeg",
-        "description": "The app provides online courses on Commerce for college students",
+        "description": "Screens:\n 1-Login Screen\n 2- Register Screen\n 3- Main Screen to Show new news\n 4- Profile Screen\n 5- Courses page for student filtered by terms and studying year and all Courses page for teachers\n 6- More page to add New posts and Courses and manage users\n 7- Settings Page to Change language\n 8- Contact Me Page \n \n  Features:\n * Posting: Users can post news and other content that is visible to all users.\n * Post management: Users can edit or delete their own posts, and they can also manage other users' posts.\n * Course management: Teacher can add chapters to courses and delete chapters.\n * User management: Teacher can block, activate, change the password of, or delete other users.\n * Language support: Users can change the interface language to Arabic, English, or any other language that is supported.\n * Sign-out and remember password: Users can sign out of the app and have the option to remember their password.\n * Contact page: Users can contact the teacher through a dedicated contact page.\n * Privacy and terms: Users can view the app's privacy policy and terms of service.\n * Firebase services: The app uses Firebase services, including Firestore (a NoSQL database) and Firebase Storage (a cloud storage service).\n * Crashlytics: The app uses Crashlytics to collect crash reports and help identify and fix stability issues.\n \n  Security:\n * Device binding: Users can only log in to the app from the device they registered with. The app saves the device's serial number to ensure that only the registered device can be used to log in.\n * Screen recording and screenshot protection: The app prevents users from recording the screen or taking screenshots. This helps to protect the app's content and prevent unauthorized sharing.\n * Single-user account: Each user can only have one account. This prevents users from logging in to the app with multiple accounts at the same time.\n * Headset detection: The app can detect if the user is using a headset. This helps to prevent the user from sharing the app's content with others by playing the sound through the loudspeaker.\n ",
         "tags": ["flutter", "andriod", "IOS", "FireBase"],
         "technology": "Flutter framework for IOS and Andriod \n Firebase backend\n GetX state manager.\n Multilanguage English and Arabic.",
         "links": [
@@ -96,7 +96,7 @@ const projects = [
         "image": "/projects/collectOrder.jpg",
         "description": "When a group of friends go out and order different sandwiches, this application can handle a specific order for every friend.",
         "technology": "Flutter framework available for IOS and Andriod \nHive Database \nGetx state manager.",
-        "tags": ["flutter", "andriod", "IOS","FireBase"],
+        "tags": ["flutter", "andriod", "IOS", "FireBase"],
         "links": [
             { "name": "Github", "url": "https://github.com/samer-saied/collectOrder/tree/master" },
             { "name": "PlayStore", "url": "https://play.google.com/store/apps/details?id=me.samersaied.collect_order" },
@@ -104,7 +104,7 @@ const projects = [
         ]
 
     },
-     {
+    {
         "id": 8,
         "section": "Website",
         "title": "Ecommerce website",
