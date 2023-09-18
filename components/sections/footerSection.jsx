@@ -10,6 +10,7 @@ const FooterSection = () => {
           <a
             href="https://www.facebook.com/samer.saied"
             className="text-gray-400 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
+            aria-label="facebook" target="_blank"
           >
             <svg
               width="24"
@@ -26,6 +27,8 @@ const FooterSection = () => {
           <a
             href="https://github.com/samer-saied"
             className="text-gray-400 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
+            aria-label="github" target="_blank"
+
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -42,6 +45,8 @@ const FooterSection = () => {
           <a
             href="https://www.linkedin.com/in/samer-saied-53a903124/"
             className="text-gray-400 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
+            aria-label="linkedIn" target="_blank"
+
           >
             <svg
               width="24"
@@ -58,6 +63,8 @@ const FooterSection = () => {
           <a
             href="tel:+201010199177"
             className="text-gray-400 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
+            aria-label="Mobile" target="_blank"
+
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -78,6 +85,8 @@ const FooterSection = () => {
           <a
             href="whatsapp://send?text=Hello Samer&phone=+201010199177"
             className="text-gray-400 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
+            aria-label="whatsapp" target="_blank"
+
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -95,6 +104,8 @@ const FooterSection = () => {
           <a
             href="mailto:samersaied02@gmail.com"
             className="text-gray-400 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
+            aria-label="email" target="_blank"
+
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

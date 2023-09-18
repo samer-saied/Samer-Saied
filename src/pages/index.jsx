@@ -21,6 +21,8 @@ const App = () => {
         <title>Samer Saied</title>
         <meta name="description" content="Samer Saied Resume" />
         <link rel="manifest" href="/manifest.json"></link>
+        <meta name="theme-color" content="#1F2937" />
+
       </Head>
       <NavBar />
       <StartSection />

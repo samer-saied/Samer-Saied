@@ -2,21 +2,24 @@
     "short_name": "Samer Saied",
     "name": "SamerSaied - Flutter Developer & Full stack Developer",
     "icons": [
-      {
-        "src": "/images/samersaied.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      },
-      {
-        "src": "/images/samersaied.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "/favicon.ico",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
+        {
+            "src": "/images/samersaied.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/images/samersaied.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/favicon.ico",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
     ],
     "id": "/",
     "start_url": "/",
@@ -25,27 +28,32 @@
     "scope": "/",
     "theme_color": "#1F2937",
     "shortcuts": [
-      {
-        "name": "Samer Saied's Resume",
-        "short_name": "Samer Saied",
-        "description": "Samer Saied's Resume",
-        "url": "/",
-        "icons": [{ "src": "/favicon.ico", "sizes": "192x192" }]
-      }
+        {
+            "name": "Samer Saied's Resume",
+            "short_name": "Samer Saied",
+            "description": "Samer Saied's Resume",
+            "url": "/",
+            "icons": [
+                {
+                    "src": "/favicon.ico",
+                    "sizes": "192x192"
+                }
+            ]
+        }
     ],
     "description": "SamerSaied Resume - Flutter Developer & Full stack Develope",
     "screenshots": [
-      {
-        "src": "/seo/screenshot.png",
-        "type": "image/png",
-        "sizes": "540x720",
-        "form_factor": "narrow"
-      },
-      {
-        "src": "/seo/screenshot.jpg",
-        "type": "image/jpg",
-        "sizes": "720x540",
-        "form_factor": "wide"
-      }
+        {
+            "src": "/seo/screenshot.png",
+            "type": "image/png",
+            "sizes": "540x720",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "/seo/screenshot.jpg",
+            "type": "image/jpg",
+            "sizes": "720x540",
+            "form_factor": "wide"
+        }
     ]
-  }
+}
