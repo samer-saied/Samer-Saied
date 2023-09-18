@@ -20,6 +20,7 @@ const App = () => {
       <Head>
         <title>Samer Saied</title>
         <meta name="description" content="Samer Saied Resume" />
+        <link rel="manifest" href="/manifest.json"></link>
       </Head>
       <NavBar />
       <StartSection />
