@@ -36,9 +36,6 @@ export default function App({ Component, pageProps }) {
           `,
         }}
       />
-      <script src=
-        "/js/emojione.min.js">
-      </script>
       <Component {...pageProps} />;
 
     </>
