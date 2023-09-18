@@ -19,19 +19,19 @@ const projects = [
     {
         "id": 2,
         "section": "Mobile app",
-        "title": "Cigarettes Off",
-        "image": "/projects/cigarettesoff.gif",
-        "description": "Cigarettes Off is a mobile application that helps you quit smoking by providing you with a personalized plan, tips, and rewards. You can track your progress, see how much money and time you have saved, and get support from other quitters.",
-        "tags": ["flutter", "andriod", "IOS", "Firebase"],
+        "title": "Food Shop",
+        "image": "/projects/food_shop_blue.png",
+        "description": "full Food shop Mobile application for android and Iphone , you can connect it to Your API or Firebase",
+        "tags": ["flutter", "andriod", "IOS", ],
         "technology": "Flutter framework for IOS and Andriod \nFirebase backend Provider state manager.\nMultilanguage English and Arabic.",
         "links": [
-            { "name": "Github", "url": "https://github.com/samer-saied/smokeless" },
-            { "name": "PlayStore", "url": "https://play.google.com/store/apps/details?id=me.samersaied.freesmokingapp" },
+            { "name": "PlayStore", "url": "" },
             { "name": "appleStore", "url": "" }
 
         ]
 
-    }, {
+    },
+    {
         "id": 3,
         "section": "Mobile app",
         "title": "Learn it - Education application",
@@ -92,6 +92,22 @@ const projects = [
     {
         "id": 7,
         "section": "Mobile app",
+        "title": "Cigarettes Off",
+        "image": "/projects/cigarettesoff.gif",
+        "description": "Cigarettes Off is a mobile application that helps you quit smoking by providing you with a personalized plan, tips, and rewards. You can track your progress, see how much money and time you have saved, and get support from other quitters.",
+        "tags": ["flutter", "andriod", "IOS", "Firebase"],
+        "technology": "Flutter framework for IOS and Andriod \nFirebase backend Provider state manager.\nMultilanguage English and Arabic.",
+        "links": [
+            { "name": "Github", "url": "https://github.com/samer-saied/smokeless" },
+            { "name": "PlayStore", "url": "https://play.google.com/store/apps/details?id=me.samersaied.freesmokingapp" },
+            { "name": "appleStore", "url": "" }
+
+        ]
+
+    },
+    {
+        "id": 8,
+        "section": "Mobile app",
         "title": "Collect Orders",
         "image": "/projects/collectOrder.jpg",
         "description": "When a group of friends go out and order different sandwiches, this application can handle a specific order for every friend.",
@@ -105,7 +121,7 @@ const projects = [
 
     },
     {
-        "id": 8,
+        "id": 9,
         "section": "Website",
         "title": "Ecommerce website",
         "image": "/projects/ecommerce_nextjs.gif",
