@@ -23,10 +23,10 @@ const projects = [
         "image": "/projects/food_shop_blue.png",
         "description": "full Food shop Mobile application for android and Iphone , you can connect it to Your API or Firebase",
         "tags": ["flutter", "andriod", "IOS", ],
-        "technology": "Flutter framework for IOS and Andriod \nFirebase backend Provider state manager.\nMultilanguage English and Arabic.",
+        "technology": "Flutter framework for IOS and Andriod \nClean architecture\nMultilanguage English, Arabic and More.",
         "links": [
-            { "name": "PlayStore", "url": "" },
-            { "name": "appleStore", "url": "" }
+            // { "name": "PlayStore", "url": "" },
+            // { "name": "appleStore", "url": "" }
 
         ]
 
@@ -52,7 +52,7 @@ const projects = [
         "section": "Mobile app",
         "title": "Food Shop",
         "image": "/projects/foodshop.gif",
-        "description": "Demo UI of foodshop mobile applications",
+        "description": "Demo foodshop mobile applications",
         "tags": ["flutter", "andriod", "IOS"],
         "technology": "Flutter framework available for IOS and Andriod.\n Bloc state manager.",
         "links": [
