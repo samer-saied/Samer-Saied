@@ -48,8 +48,8 @@ export default function SingleProject({ projextNo }) {
             key={project.icon}
             alt={project.title + " photo"}
             src={project.image}
-            width={600}
-            height={600}
+            width={300}
+            height={300}
             className="object-fill w-full h-full"
           />
         )}{" "}
@@ -61,8 +61,8 @@ export default function SingleProject({ projextNo }) {
                 key={index}
                 alt={element}
                 src={element}
-                width={600}
-                height={600}
+                width={300}
+                height={300}
                 className="object-fill w-full h-full px-3"
               />
             ))}
