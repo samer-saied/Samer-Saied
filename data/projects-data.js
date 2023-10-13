@@ -57,7 +57,7 @@ const projects = [
         "technology": "Flutter framework for IOS and Andriod \n Firebase backend\n GetX state manager.\n Multilanguage English and Arabic.",
         "links": [
             { "name": "PlayStore", "url": "https://play.google.com/store/apps/details?id=com.monaellebody.mlapp" },
-            { "name": "appleStore", "url": "" }
+            { "name": "appleStore", "url": "https://apps.apple.com/eg/app/mona-ellebody/id6469087922" }
 
         ]
 
