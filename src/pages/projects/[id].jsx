@@ -1,7 +1,8 @@
 import React from "react";
 import NavBar from "../../../components/widgets/navbar";
 import FooterSection from "../../../components/sections/footerSection";
-import Link from "next/link";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import projectsData from "../../../data/projects-data";
 import Image from "next/image";
 
@@ -10,6 +11,25 @@ const { useState } = React;
 export default function SingleProject({ projextNo }) {
   // console.log(projextNo);
   const project = projectsData[+projextNo - 1];
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 5,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 3,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 2,
+    },
+  };
 
   return (
     <>
@@ -23,15 +43,7 @@ export default function SingleProject({ projextNo }) {
           {project.section}
         </p>
         {/*=========================== IMAGE - VIDEO SECTION ===========================*/}
-        {/* {project.video && (
-          <div className="flex flex-col justify-center items-center bg-white h-full">
-            <video autoPlay={true} muted loop height="240">
-              <source src="/video/tal3a_video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        )} */}
-        {project.image && (
+        {project.icon == null && (
           <Image
             alt={project.title + " photo"}
             src={project.image}
@@ -40,6 +52,20 @@ export default function SingleProject({ projextNo }) {
             className="object-fill w-full h-full"
           />
         )}{" "}
+        {/*=========================== Slider SECTION ===========================*/}
+        {project.shotScreens != null && (
+          <Carousel responsive={responsive}>
+            {project.shotScreens.map((element) => (
+              <Image
+                alt={element}
+                src={element}
+                width={600}
+                height={600}
+                className="object-fill w-full h-full px-3"
+              />
+            ))}
+          </Carousel>
+        )}
         {/*=========================== DETAILS SECTION ===========================*/}
         <div className=" flex flex-col justify-center mt-10">
           <div className="border border-gray-200 rounded-md p-5 shadow-sm mb-2">
@@ -77,8 +103,8 @@ export default function SingleProject({ projextNo }) {
             <div className="flex flex-col">
               <h1 className=" font-bold text-gray-700 text-xl">Links</h1>
               <div className="flex lg:flex-row flex-col justify-evenly items-center mb-5">
-                {project.links?.map((link , index) => (
-                  <div key={link.name+index}>
+                {project.links?.map((link, index) => (
+                  <div key={link.name + index}>
                     {link.name == "Github" && (
                       <button
                         onClick={(event) => {
@@ -196,7 +222,9 @@ export default function SingleProject({ projextNo }) {
                   </div>
                 ))}
                 {project.links.length == 0 && (
-                  <h1 className=" font-bold text-gray-700 text-xl">Contact Me</h1>
+                  <h1 className=" font-bold text-gray-700 text-xl">
+                    Contact Me
+                  </h1>
                 )}
               </div>
             </div>
