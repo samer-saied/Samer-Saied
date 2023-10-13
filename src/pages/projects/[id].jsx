@@ -45,6 +45,7 @@ export default function SingleProject({ projextNo }) {
         {/*=========================== IMAGE - VIDEO SECTION ===========================*/}
         {project.icon == null && (
           <Image
+            key={project.icon}
             alt={project.title + " photo"}
             src={project.image}
             width={600}
@@ -55,8 +56,9 @@ export default function SingleProject({ projextNo }) {
         {/*=========================== Slider SECTION ===========================*/}
         {project.shotScreens != null && (
           <Carousel responsive={responsive}>
-            {project.shotScreens.map((element) => (
+            {project.shotScreens.map((element, index) => (
               <Image
+                key={index}
                 alt={element}
                 src={element}
                 width={600}
