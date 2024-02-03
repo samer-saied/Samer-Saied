@@ -3,8 +3,8 @@ const projects = [
         "id": 1,
         "section": "Website",
         "title": "XO-Store Games Cards Store",
-        "image": "/projects/xo-shootscreen.png",
-        "icon": "/projects/learnit/icon.png",
+        "image": "/projects/xo-store-main.png",
+        "icon": "https://xo-store.vercel.app/logo/logo.svg",
         "shotScreens": [
             "/projects/xo-shootscreen.png",
             "/projects/xo-cart-shootscreen.png",
@@ -28,6 +28,9 @@ const projects = [
         "shotScreens": [
             "/projects/learnit/learnit_0.jpg",
             "https://play-lh.googleusercontent.com/0jJd2NpGSiRxhwEz6vtYpWMdMZNFXfAa5g41hV1yit3rmCNKkGuxTAqdKugXwomTz9AL=w1052-h592-rw",
+            "https://play-lh.googleusercontent.com/-yOTdzAfCLUhU-BkktQXnJTln7HQHXsrTuKuLASrFsuksVZSFC1TWTnqBO7I_VFpNlQ=w1052-h592-rw",
+            "https://play-lh.googleusercontent.com/gV9qRnvpC9w4iacBYiH1q5RuGgq7GdiO31REtsBQuPbnZwlixfCDErEwycltfP-vGg=w1052-h592-rw",
+            "https://play-lh.googleusercontent.com/-yOTdzAfCLUhU-BkktQXnJTln7HQHXsrTuKuLASrFsuksVZSFC1TWTnqBO7I_VFpNlQ=w1052-h592-rw",
             "/projects/learnit/learnit_1.jpg",
             "/projects/learnit/learnit_2.png",
             "/projects/learnit/learnit_3.png",
