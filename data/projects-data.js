@@ -28,7 +28,9 @@ const projects = [
         "shotScreens": [
             "/projects/learnit/learnit_0.jpg",
             "https://play-lh.googleusercontent.com/0jJd2NpGSiRxhwEz6vtYpWMdMZNFXfAa5g41hV1yit3rmCNKkGuxTAqdKugXwomTz9AL=w1052-h592-rw",
-            "https://play-lh.googleusercontent.com/-yOTdzAfCLUhU-BkktQXnJTln7HQHXsrTuKuLASrFsuksVZSFC1TWTnqBO7I_VFpNlQ=w1052-h592-rw",
+            "https://play-lh.googleusercontent.com/gV9qRnvpC9w4iacBYiH1q5RuGgq7GdiO31REtsBQuPbnZwlixfCDErEwycltfP-vGg=w1052-h592-rw",
+            "https://play-lh.googleusercontent.com/PHAO1MHxIIGjrRWrNe5xH14oNlfpJZujnCXZAh4UgPTZAzSf8opUqvuX6EQtreO3HTk=w1052-h592-rw",
+            "https://play-lh.googleusercontent.com/cP5lnpJ34_521VoqBebctK0cP7xOC7RdcopwAx8AyYtDp0RDUm33W7wwyMJfdkzX4rY=w1052-h592-rw",
             "/projects/learnit/learnit_1.jpg",
             "/projects/learnit/learnit_2.png",
             "/projects/learnit/learnit_3.png",
