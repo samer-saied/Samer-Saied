@@ -27,6 +27,7 @@ const projects = [
         "icon": "/projects/learnit/icon.png",
         "shotScreens": [
             "/projects/learnit/learnit_0.jpg",
+            "https://play-lh.googleusercontent.com/0jJd2NpGSiRxhwEz6vtYpWMdMZNFXfAa5g41hV1yit3rmCNKkGuxTAqdKugXwomTz9AL=w1052-h592-rw",
             "/projects/learnit/learnit_1.jpg",
             "/projects/learnit/learnit_2.png",
             "/projects/learnit/learnit_3.png",
