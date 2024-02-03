@@ -1,38 +1,26 @@
 const projects = [
     {
         "id": 1,
-        "section": "Website , adminPanel , Mobile application",
-        "title": "Tal3a",
-        "image": "/projects/tal3a_image.gif",
-        "video": "tal3a_video.mp4",
-        "description": "Tal3a is a website and mobile app that offers various events and activities for people to enjoy in Kuwait. You can find plays, concerts, movies, workshops, festivals, and more on the website. You can also create your own event and invite others to join you.",
-        "tags": ["flutter", "andriod", "IOS", "reactJs", "tailwind", "mongoDb", "expressJs", "nodeJs", "NextJs"],
-        "technology": "MERN stack by Next.js framework full-stack Web applications and admin Panel \nFlutter framework for IOS and Andriod.",
+        "section": "Website",
+        "title": "XO-Store Games Cards Store",
+        "image": "/projects/xo-shootscreen.png",
+        "icon": "/projects/learnit/icon.png",
+        "shotScreens": [
+            "/projects/xo-shootscreen.png",
+            "/projects/xo-cart-shootscreen.png",
+        ],
+        "description": "Home Page \nCategories Page \nLogIn Page \nSignUp Page \nCart Page \nPayment Page \nSingle Game Card Page  ",
+        "tags": ["Nextjs", "Reactjs", "Nodejs", "FireBase","Firestore","Firebase Storage"],
+        "technology": "Nextjs Reactjs Nodejs FireBase (Firestore - Firebase Storage)",
         "links": [
-            { "name": "Website", "url": "https://www.tal3a.app" },
-            { "name": "PlayStore", "url": "" },
-            { "name": "appleStore", "url": "" }
+            { "name": "Website", "url": "https://xo-store.vercel.app/" },
 
         ]
 
+
     },
-    {
+     {
         "id": 2,
-        "section": "Mobile app",
-        "title": "Food Shop",
-        "image": "/projects/food_shop_blue.png",
-        "description": "full Food shop Mobile application for android and Iphone , you can connect it to Your API or Firebase",
-        "tags": ["flutter", "andriod", "IOS",],
-        "technology": "Flutter framework for IOS and Andriod \nClean architecture\nMultilanguage English, Arabic and More.",
-        "links": [
-            // { "name": "PlayStore", "url": "" },
-            // { "name": "appleStore", "url": "" }
-
-        ]
-
-    },
-    {
-        "id": 3,
         "section": "Mobile app",
         "title": "Learn it - Education application",
         "image": "/projects/education-app.jpg",
@@ -63,6 +51,23 @@ const projects = [
 
 
     },
+    
+    {
+        "id":3,
+        "section": "Mobile app",
+        "title": "Food Shop",
+        "image": "/projects/food_shop_blue.png",
+        "description": "full Food shop Mobile application for android and Iphone , you can connect it to Your API or Firebase",
+        "tags": ["flutter", "andriod", "IOS",],
+        "technology": "Flutter framework for IOS and Andriod \nClean architecture\nMultilanguage English, Arabic and More.",
+        "links": [
+            // { "name": "PlayStore", "url": "" },
+            // { "name": "appleStore", "url": "" }
+
+        ]
+
+    },
+   
     {
         "id": 4,
         "section": "Mobile app",
@@ -122,7 +127,7 @@ const projects = [
 
     },
     {
-        "id": 8,
+        "id":8,
         "section": "Mobile app",
         "title": "Collect Orders",
         "image": "/projects/collectOrder.jpg",
@@ -147,6 +152,22 @@ const projects = [
         "links": [
             { "name": "Github", "url": "https://github.com/samer-saied/nextjs13_ecommerce" },
             { "name": "Website", "url": "https://nextjs13-ecommerce-phi.vercel.app/products" },
+
+        ]
+
+    },{
+        "id": 10,
+        "section": "Website , adminPanel , Mobile application",
+        "title": "Tal3a",
+        "image": "/projects/tal3a_image.gif",
+        "video": "tal3a_video.mp4",
+        "description": "Tal3a is a website and mobile app that offers various events and activities for people to enjoy in Kuwait. You can find plays, concerts, movies, workshops, festivals, and more on the website. You can also create your own event and invite others to join you.",
+        "tags": ["flutter", "andriod", "IOS", "reactJs", "tailwind", "mongoDb", "expressJs", "nodeJs", "NextJs"],
+        "technology": "MERN stack by Next.js framework full-stack Web applications and admin Panel \nFlutter framework for IOS and Andriod.",
+        "links": [
+            { "name": "Website", "url": "https://www.tal3a.app" },
+            { "name": "PlayStore", "url": "" },
+            { "name": "appleStore", "url": "" }
 
         ]
 
