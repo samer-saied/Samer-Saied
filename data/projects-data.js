@@ -24,7 +24,7 @@ const projects = [
         "section": "Mobile app",
         "title": "Learn it - Education application",
         "image": "https://play-lh.googleusercontent.com/-yOTdzAfCLUhU-BkktQXnJTln7HQHXsrTuKuLASrFsuksVZSFC1TWTnqBO7I_VFpNlQ=w1052-h592-rw",
-        "icon": "/projects/learnit/icon.png",
+        "icon": "/projects/learnit/learn_app.jpg",
         "shotScreens": [
             "https://play-lh.googleusercontent.com/zhMZy4xOpFUtc9ZTWEdxXIwB9k7q4tPE9gFeFBargEgx1dbO7zkAmxhgxwKSbdYM0CM=w1052-h592",
             "https://play-lh.googleusercontent.com/aYXUk-3S7tAwZmnpf0IcmRa-5U7xlzA4yK_Idjnn7yzaTeSfnJQu0Z3a2ekcm53jsxc=w1052-h592",
