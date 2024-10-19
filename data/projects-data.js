@@ -55,9 +55,31 @@ const projects = [
 
 
     },
+    {
+        "id": 3,
+        "section": "Mobile App",
+        "title": "Sales Rep App",
+        "image": "/projects/xo-store-main.png",
+        "icon": "https://private-user-images.githubusercontent.com/46113474/378040866-dd5d2360-4be7-497f-8dc0-647aeb1dd1e4.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkzMDIyMDEsIm5iZiI6MTcyOTMwMTkwMSwicGF0aCI6Ii80NjExMzQ3NC8zNzgwNDA4NjYtZGQ1ZDIzNjAtNGJlNy00OTdmLThkYzAtNjQ3YWViMWRkMWU0LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE5VDAxMzgyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE2OGUyZjRkNWYwN2E1OTk1YTYzMzY2OGJhN2IyNzZmODRlMDI1YTJmMTk4Njc4ZDUzNTM2NWI2ZWQ0MmFkYjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.VCPxz9Irrulwu-QAzgwpsf5o5SputJH3KRJUD6mvUdE",
+        "shotScreens": [
+            "https://private-user-images.githubusercontent.com/46113474/378040866-dd5d2360-4be7-497f-8dc0-647aeb1dd1e4.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkzMDIyMDEsIm5iZiI6MTcyOTMwMTkwMSwicGF0aCI6Ii80NjExMzQ3NC8zNzgwNDA4NjYtZGQ1ZDIzNjAtNGJlNy00OTdmLThkYzAtNjQ3YWViMWRkMWU0LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE5VDAxMzgyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE2OGUyZjRkNWYwN2E1OTk1YTYzMzY2OGJhN2IyNzZmODRlMDI1YTJmMTk4Njc4ZDUzNTM2NWI2ZWQ0MmFkYjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.VCPxz9Irrulwu-QAzgwpsf5o5SputJH3KRJUD6mvUdE",
+            "https://private-user-images.githubusercontent.com/46113474/378040907-206297d8-d66e-4f83-ba85-4a1279a0af4b.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkzMDIyMDEsIm5iZiI6MTcyOTMwMTkwMSwicGF0aCI6Ii80NjExMzQ3NC8zNzgwNDA5MDctMjA2Mjk3ZDgtZDY2ZS00ZjgzLWJhODUtNGExMjc5YTBhZjRiLlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE5VDAxMzgyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEyYjBkOWM0ZDNlMzFhZTUwODlmZDM4YjUxMjk1MTEwYThkYjdjMmM2ZWUwNmRlNGMzNGI1MTdkOWI4YTA5MDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.wKgt-gD35TpsL0SjGMi45HhHSp1Sqf_V8TwUUPQmpkk",
+            "https://private-user-images.githubusercontent.com/46113474/378040737-f4d8f7db-d736-4a66-aff9-4833a8460276.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkzMDIyMDEsIm5iZiI6MTcyOTMwMTkwMSwicGF0aCI6Ii80NjExMzQ3NC8zNzgwNDA3MzctZjRkOGY3ZGItZDczNi00YTY2LWFmZjktNDgzM2E4NDYwMjc2LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE5VDAxMzgyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA3OWUzNzdhN2YxOTRhMGZmNWRjZTVkMzMyOGFhZTQyYjFlNmM3Yzg0YTE2Njk2MzRjNTY2YjBkYmU5OWE0YzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.2pmNgB0ChWy7Fv5dnAdDfiuIktnu9U5WwgpP6hq1LgY",
+            "https://private-user-images.githubusercontent.com/46113474/378040809-49250ce5-4952-4034-906a-418c0510e04d.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkzMDIyMDEsIm5iZiI6MTcyOTMwMTkwMSwicGF0aCI6Ii80NjExMzQ3NC8zNzgwNDA4MDktNDkyNTBjZTUtNDk1Mi00MDM0LTkwNmEtNDE4YzA1MTBlMDRkLlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE5VDAxMzgyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU5ZDNkZGEzMmViYjk0MmU3MDkxMjBlN2VlM2U1ZGQ0NjM0ZDJkOTM2MjU2YTU2MWU3YTM1YTUzMTk5NDQ5MzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XowUa4SXRBE5Dvxd-11pmOTtW_pmCrzj-SNmyjZSxJI"
+        ],
+        "description": "clean architecture flutter app to sales rep who needs to calculate money fiats and save every transaction to resore them later",
+        "tags": ["Flutter", "Clean architecture", "Cubit/bloc", "Sqlite","sharedRef","solid principles","responsive Design"],
+        "technology": "Flutter framework for IOS and Andriod \n Sqlite database\n Bloc/Cubit state manager.\n Multilanguage English and Arabic.",
+        "links": [
+            { "name": "Github", "url": "https://github.com/samer-saied/mandob" },
+
+        ]
+
+
+    },
     
     {
-        "id":3,
+        "id":4,
         "section": "Mobile app",
         "title": "Food Shop",
         "image": "/projects/food_shop_blue.png",
@@ -73,7 +95,7 @@ const projects = [
     },
    
     {
-        "id": 4,
+        "id": 5,
         "section": "Mobile app",
         "title": "Food Shop",
         "image": "/projects/foodshop.gif",
@@ -88,7 +110,7 @@ const projects = [
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "section": "NodeJs Api server , Mobile app",
         "title": "AccuNews",
         "image": "/projects/accunews.png",
@@ -102,7 +124,7 @@ const projects = [
 
     },
     {
-        "id": 6,
+        "id": 7,
         "section": "Fullstack Website",
         "title": "POS",
         "image": "/projects/under.jpg",
@@ -115,7 +137,7 @@ const projects = [
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "section": "Mobile app",
         "title": "Cigarettes Off",
         "image": "/projects/cigarettesoff.gif",
@@ -131,7 +153,7 @@ const projects = [
 
     },
     {
-        "id":8,
+        "id":9,
         "section": "Mobile app",
         "title": "Collect Orders",
         "image": "/projects/collectOrder.jpg",
@@ -146,7 +168,7 @@ const projects = [
 
     },
     {
-        "id": 9,
+        "id": 10,
         "section": "Website",
         "title": "Ecommerce website",
         "image": "/projects/ecommerce_nextjs.gif",
@@ -160,7 +182,7 @@ const projects = [
         ]
 
     },{
-        "id": 10,
+        "id": 11,
         "section": "Website , adminPanel , Mobile application",
         "title": "Tal3a",
         "image": "/projects/tal3a_image.gif",
