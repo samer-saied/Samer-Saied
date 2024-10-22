@@ -53,10 +53,12 @@ const projects = [
         "image": "/projects/mandob/mandob.jpg",
         "icon": "/projects/mandob/mandob.jpg",
         "shotScreens": [
-            "/projects/mandob/IMG_6550 2.PNG",
-            "/projects/mandob/IMG_6551 2.PNG",
-        "/projects/mandob/IMG_6552 2.PNG",
-        "/projects/mandob/IMG_6553 2.PNG"
+            "/projects/mandob/IMG_6581.PNG",
+            "/projects/mandob/IMG_6586.PNG",
+        "/projects/mandob/IMG_6587.PNG",
+        "/projects/mandob/IMG_6588.PNG",
+                    "/projects/mandob/IMG_6589.PNG"
+
         ],
         "description": "clean architecture flutter app to sales rep who needs to calculate money fiats and save every transaction to resore them later",
         "tags": ["Flutter", "Clean architecture", "Cubit/bloc", "Sqlite","sharedRef","solid principles","responsive Design"],
