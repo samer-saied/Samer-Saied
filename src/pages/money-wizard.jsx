@@ -1,10 +1,5 @@
 import React from "react";
-import NavBar from "../../../components/widgets/navbar";
-import FooterSection from "../../../components/sections/footerSection";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import projectsData from "../../../data/projects-data";
-import Image from "next/image";
 
 const { useState } = React;
 
@@ -34,7 +29,7 @@ export default function SingleProject() {
   return (
     <>
       <div key={project.id} className="lg:w-6/12 w-11/12 mx-auto pt-5">
-        {/*=========================== TITLE - TYPE SECTION ===========================*/}
+        {/*===========================  Google Play ===========================*/}
                   <button
                         onClick={(event) => {
                           event.preventDefault();
@@ -70,7 +65,7 @@ export default function SingleProject() {
                           </div>
                         </div>
                       </button>
-        {/*=========================== IMAGE - VIDEO SECTION ===========================*/}
+        {/*=========================== Apple Store ===========================*/}
            <button
                         onClick={(event) => {
                           event.preventDefault();
@@ -94,7 +89,8 @@ export default function SingleProject() {
                           </div>
                         </div>
                       </button>
-        
+       </div> 
     </>
+
   );
 }
