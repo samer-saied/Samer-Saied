@@ -3,7 +3,7 @@ import "react-multi-carousel/lib/styles.css";
 
 const { useState } = React;
 
-export default function SingleProject() {
+export default function MoneyWizardProject() {
   // console.log(projextNo);
 
   const responsive = {
@@ -28,12 +28,12 @@ export default function SingleProject() {
 
   return (
     <>
-      <div key={project.id} className="lg:w-6/12 w-11/12 mx-auto pt-5">
+      <div className="lg:w-6/12 w-11/12 mx-auto pt-5">
         {/*===========================  Google Play ===========================*/}
                   <button
                         onClick={(event) => {
                           event.preventDefault();
-                          window.open(`${link.url}`, "_blank");
+                          window.open(`www.google.com`, "_blank");
                         }}
                         type="button"
                         className="flex items-center justify-center w-48 mt-3 text-white bg-black rounded-lg h-14"
@@ -69,7 +69,7 @@ export default function SingleProject() {
            <button
                         onClick={(event) => {
                           event.preventDefault();
-                          window.open(`${link.url}`, "_blank");
+                          window.open(`www.google.com`, "_blank");
                         }}
                         type="button"
                         className="flex items-center justify-center w-48 mt-3 text-black bg-transparent border border-black h-14 rounded-xl"
