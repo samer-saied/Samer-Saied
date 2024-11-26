@@ -37,6 +37,7 @@ export default function MoneyWizardProject() {
       height={500}
       alt="Money Wizard"
     />
+              <div className="flex flex-row">
         {/*===========================  Google Play ===========================*/}
         <button
           onClick={(event) => {
@@ -97,7 +98,8 @@ export default function MoneyWizardProject() {
             </div>
           </div>
         </button>
-        
+      </div>
+
       </div>
     </>
 
