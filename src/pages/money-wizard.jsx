@@ -29,8 +29,12 @@ export default function MoneyWizardProject() {
   return (
     <>
       <div className="container mx-auto pt-5">
-        <img src="https://play-lh.googleusercontent.com/Zv3y7NM0wpcIj_7vY4fTJEz3o0B3trSB2UF0InImeIEbQNnV3ROcZved0Xat2r0Aaw=w1052-h592-rw" alt="Money Wizard" width="500" height="600">
-
+<Image
+      src="https://play-lh.googleusercontent.com/Zv3y7NM0wpcIj_7vY4fTJEz3o0B3trSB2UF0InImeIEbQNnV3ROcZved0Xat2r0Aaw=w1052-h592-rw"
+      width={500}
+      height={500}
+      alt="Money Wizard"
+    />
         {/*===========================  Google Play ===========================*/}
         <button
           onClick={(event) => {
