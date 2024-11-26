@@ -33,7 +33,7 @@ export default function MoneyWizardProject() {
                   <button
                         onClick={(event) => {
                           event.preventDefault();
-                          window.open(`www.google.com`, "_blank");
+                          window.open(`https://play.google.com/store/apps/details?id=com.samersaied.moneywizard`, "_blank");
                         }}
                         type="button"
                         className="flex items-center justify-center w-48 mt-3 text-white bg-black rounded-lg h-14"
@@ -69,7 +69,7 @@ export default function MoneyWizardProject() {
            <button
                         onClick={(event) => {
                           event.preventDefault();
-                          window.open(`www.google.com`, "_blank");
+                          window.open(`https://apps.apple.com/us/app/money-wizard/id6738664958`, "_blank");
                         }}
                         type="button"
                         className="flex items-center justify-center w-48 mt-3 text-black bg-transparent border border-black h-14 rounded-xl"
