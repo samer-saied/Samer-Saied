@@ -4,7 +4,7 @@ import React from 'react'
 const   startSection = () => {
     return (
 
-        <div className="w-full bg-cutomDartBlue overflow-hidden flex lg:flex-row flex-col-reverse justify-center items-center lg:px-24">
+        <div className="w-full bg-cutomDartBlack overflow-hidden flex lg:flex-row flex-col-reverse justify-center items-center lg:px-24">
             {/*----------------------- Details -----------------------*/}
             <div className="text-start lg:w-7/12 w-full mx-auto py-12 pl-10 z-20">
                 {/*----------------------- Name -----------------------*/}

@@ -15,26 +15,26 @@ export default function SingleProject({ projextNo }) {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      items: 7,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 5,
+      items: 7,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 3,
+      items: 5,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 2,
+      items: 3,
     },
   };
 
   return (
     <>
       <NavBar></NavBar>
-      <div key={project.id} className="lg:w-6/12 w-11/12 mx-auto pt-5">
+      <div key={project.id} className="lg:w-9/12 w-10/12 mx-auto pt-5">
         {/*=========================== TITLE - TYPE SECTION ===========================*/}
         <p className=" text-4xl mt-5 font-medium text-gray-800">
           {project.title}

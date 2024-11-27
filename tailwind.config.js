@@ -9,10 +9,12 @@ module.exports = {
     extend: {
       colors: {
         cutomLightBlue: '#8ECAE6',
-        cutomMidBlue: '#219EBC',
-        cutomDartBlue: '#023047',
+        cutomMidBlue: '#227C9D',
+        cutomDartBlack: '#023047',
         cutomOrange: '#FB8500',
-        cutomyellow: '#FFB703'
+        cutomyellow: '#FFB703',
+        customBlackNight: '#121312',
+        customRaisinBlack:'#001514'
 
       }
     },

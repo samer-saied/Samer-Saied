@@ -4,13 +4,13 @@ import React, { useState } from "react";
 const Navbar = () => {
   const [IsMobile, setIsMobile] = useState(false);
   return (
-    <nav className="bg-gray-800  shadow ">
-      <div className="px-8 mx-auto max-w-7xl">
-        <div className="flex items-center justify-between h-16">
+    <nav className="bg-cutomMidBlue shadow ">
+      <div className="px-8 mx-auto">
+        <div className="flex items-center justify-between h-12">
           <div className="w-full justify-between flex items-center">
             <Link className="flex-shrink-0" href="/">
               {/* <img className="w-8 h-8" src="/images/logo.gif" alt="Workflow" /> */}
-              <h1 className="text-white text-xl font-medium ">Resume</h1>
+              <h1 className="text-white text-xl font-bold ">Resume</h1>
             </Link>
             <div className="hidden md:block">
               <div className="flex items-baseline ml-10 space-x-4">
