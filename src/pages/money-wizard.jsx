@@ -9,7 +9,7 @@ export default function MoneyWizardProject() {
   return (
     <div className="mx-auto w-full">
       <Head>
-        <title>Custom Title for Specific Page</title>
+        <title>حفظ وعد نقديه - ماني ويزرد</title>
         <meta name="description" content="Money Wizard" />
         <link rel="shortcut icon" href="/favicon2.ico" />
         {/* Other custom meta tags */}
