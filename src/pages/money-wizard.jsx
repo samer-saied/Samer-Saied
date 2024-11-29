@@ -15,7 +15,7 @@ export default function MoneyWizardProject() {
         {/* Other custom meta tags */}
       </Head>
       <div className="container mx-auto pt-5">
-        <div className="flex flex-row content-between justify-center "> </div>
+        <div className="flex flex-column content-center justify-center "> </div>
         <Image
           src="/projects/moneywizard/moneywizard1.png"
           width={500}
