@@ -17,13 +17,13 @@ export default function MoneyWizardProject() {
       <div className="container mx-auto pt-5">
         <div className="flex flex-row content-between justify-center "> </div>
         <Image
-          src="/projects/moneywizard/moneywizard1.jpg"
+          src="/projects/moneywizard/moneywizard1.png"
           width={500}
           height={500}
           alt="Money Wizard"
         />
             <Image
-          src="/projects/moneywizard/moneywizard2.jpg"
+          src="/projects/moneywizard/moneywizard2.png"
           width={500}
           height={500}
           alt="Money Wizard"
