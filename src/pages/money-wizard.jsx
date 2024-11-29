@@ -15,12 +15,19 @@ export default function MoneyWizardProject() {
         {/* Other custom meta tags */}
       </Head>
       <div className="container mx-auto pt-5">
-        <div className="flex flex-row content-between justify-center "> <Image
-          src="/projects/moneywizard/moneywizard-app.jpg"
+        <div className="flex flex-row content-between justify-center "> </div>
+        <Image
+          src="/projects/moneywizard/moneywizard1.jpg"
           width={500}
           height={500}
           alt="Money Wizard"
-        /></div>
+        />
+            <Image
+          src="/projects/moneywizard/moneywizard2.jpg"
+          width={500}
+          height={500}
+          alt="Money Wizard"
+        />
         <div className="flex flex-row justify-center items-center w-full">
  <div className=" md:flex md:flex-row md:content-between md:justify-center mt-10">
           {/*===========================  Google Play ===========================*/}
