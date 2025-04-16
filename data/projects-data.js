@@ -1,4 +1,46 @@
 const projects = [
+ {
+    id: 1,
+    section: "Mobile application - Android & IOS",
+    title: "TerraWalls",
+    image: "/projects/learnit/preview.jpg",
+    icon: "/projects/learnit/icon.png",
+    shotScreens: [
+      "/projects/learnit/1.webp",
+      "/projects/learnit/2.webp",
+      "/projects/learnit/3.webp",
+      "/projects/learnit/4.webp",
+      "/projects/learnit/5.webp",
+      "/projects/learnit/6.webp",
+      "/projects/learnit/7.webp",
+      "/projects/learnit/8.webp",
+      "/projects/learnit/9.webp",
+      "/projects/learnit/10.webp",
+      "/projects/learnit/11.webp",
+      "/projects/learnit/12.webp",
+    ],
+    description:
+      "Discover, Preview, and Download Stunning Mobile Wallpapers for Free! \n \n \n Screens: \n1-Home Screen \n2- Details Screen \n3- Search Screen \n4- About Screen",
+    tags: ["flutter", "andriod", "IOS", "API","Unsplash"],
+    technology:
+      "Flutter framework for IOS and Andriod \nClean architecture \nAPI backend \nBloc-Cubit state manager.",
+    links: [
+      {
+        name: "appleStore",
+        url: "https://apps.apple.com/us/app/terrawalls/id6744596057",
+      },
+      {
+        name: "PlayStore",
+        url: "https://play.google.com/store/apps/details?id=com.samersaied.terrawalls&pli=1",
+      },
+      {
+        name: "Github",
+        url: "https://github.com/samer-saied/terraWalls/tree/master",
+      },
+    ],
+  },
+
+  
   {
     id: 1,
     section: "Mobile application - Android & IOS",
