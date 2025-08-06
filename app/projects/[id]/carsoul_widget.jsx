@@ -33,7 +33,7 @@ function CarsoulWidget({ shots }) {
           >
             <Image
               key={index}
-              className=" dark:bg-gray-500 min-h-96 w-full rounded-lg shadow-lg object-cover"
+              className=" dark:bg-gray-500 max-h-96 h-96 w-full rounded-lg shadow-lg object-cover"
               src={shot}
               quality={100}
               priority={true}
