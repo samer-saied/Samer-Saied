@@ -17,7 +17,7 @@ export default function ContactMeWidget() {
       return;
     } else {
       setLoading(true);
-      fetch("/api/msg", {
+      fetch("https://nextjs-firebase-f8985-default-rtdb.firebaseio.com/messages.json", {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -30,14 +30,13 @@ export default function ContactMeWidget() {
         }),
       }).then(async (response) => {
         const data = await response.json();
-        console.log(data);
-        if (data["result"] != undefined) {
+        if (response.status == 200) {
           setLoading(false);
           setIsSended(true);
         } else {
           setLoading(false);
           setIsSended(false);
-          alert(`Error sending message ${JSON.stringify(data)}`);
+          alert(`Error sending message ${ response.status}`);
         }
       });
     }
