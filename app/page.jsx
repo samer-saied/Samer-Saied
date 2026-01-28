@@ -8,7 +8,7 @@ import ContactMeWidget from "./widgets/contactme_widget";
 
 function ProfilePage() {
   const backGroundLink =
-    "https://images.unsplash.com/photo-1742679697291-affd3365ebe4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"; // Adjust the path as necessary
+    "https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"; // Adjust the path as necessary
   return (
     <div className="relative min-h-screen bg-gray-100">
       {/* Sticky Background Image - Using Next.js Image */}
