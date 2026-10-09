@@ -28,4 +28,9 @@
     "eslint-config-next": "^15.1.6",
     "@eslint/eslintrc": "^3"
   }
+  {
+  "engines": {
+    "node": "24.0"
+  }
+}
 }
